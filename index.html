@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text Case Converter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dist/style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <h2>Select the type of conversion you want for your text</h2>
+        <textarea placeholder="Type or past your text here..." rows="20"></textarea>
+        <span id="copy-btn"><i class="far fa-copy"></i></span>
+
+        <div id="btns-container">
+            <button class="btn" id="sentence-btn">Sentence case</button>
+            <button class="btn" id="lower-btn">lower case</button>
+            <button class="btn" id="upper-btn">UPPER CASE</button>
+            <button class="btn" id="title-btn">Title Case</button>
+            <button class="btn" id="alternating-btn">aLtErNaTiNg CaSe</button>
+            <button class="btn" id="inverse-btn">InVeRsE CaSe</button>
+            <button class="btn" id="download-btn">Download Text</button>
+            <button class="btn" id="clear-btn">Clear</button>    
+        </div>
+        
+        <div id="counter-container">
+            <p id="char-count">Character count: 0</p>
+            <p id="word-count">Word count: 0</p>
+        </div>
+
+        <footer>
+            <div id="credits">
+                <p>By <a href="https://github.com/gabrielprrd">Gabriel Afonso</a></p>
+            </div>
+        </footer>
+    </div>
+    
+    
+    <script src="/dist/app.js"></script>
+</body>
+</html>
